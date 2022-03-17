@@ -346,7 +346,7 @@ def startEvent():  # 開始計算的過程，等一下大概會有不少複製�
             else:
                 resultString += ("無役\n")
         else:
-            print("沒有胡")
+            resultString += ("沒有胡")
         # show
         resultViewer["text"] = resultString
 
