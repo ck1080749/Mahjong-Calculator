@@ -53,4 +53,5 @@
 錯誤回報請至[這裡](https://github.com/ck1080749/Mahjong-Calculator/issues)。
 若對使用說明有任何疑問也請至同一區提出。
 
-## Changelog
+## README更新紀錄
+2022/03/17初版
