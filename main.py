@@ -6,7 +6,7 @@ import time
 from functools import reduce
 
 # 預處理
-jsonFileOfPointLists = open("point.json", "r")  # 打開點數清單
+jsonFileOfPointLists = open("point.json", "r", encoding="utf-8")  # 打開點數清單
 terminals = [11, 19, 21, 29, 31, 39, 41,
              42, 43, 44, 45, 46, 47]  # 1:萬, 2:筒, 3:索
 ofs = [11, 14, 17, 21, 24, 27, 31, 34, 37]  # 147
@@ -22,7 +22,7 @@ POINT = json.load(jsonFileOfPointLists)  # 讀取點數清單作為變數
 jsonFileOfPointLists.close()  # 關閉點數清單的檔案
 
 # 輸入時用的全局變數
-f = open("mahjong.json", "r")
+f = open("mahjong.json", "r", encoding="utf-8")
 MAHJONG = json.load(f)
 f.close()
 started = False
