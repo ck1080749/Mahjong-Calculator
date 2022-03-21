@@ -103,7 +103,6 @@ def startEvent():  # 開始計算的過程，等一下大概會有不少複製�
             messagebox.showerror(title="輸入錯誤", message="某一種牌數量不正確")
             start_but["state"] = tk.NORMAL
             return
-        # print(hand)
         # 對應到紅寶牌及五的過多
         if hand.count(15) > 3 or hand.count(25) > 3 or hand.count(35) > 3 or hand.count(115) > 1 or hand.count(125) > 1 or hand.count(135) > 1:
             messagebox.showerror(title="輸入錯誤", message="某一種牌數量不正確")
